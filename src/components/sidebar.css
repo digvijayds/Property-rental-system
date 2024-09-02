@@ -1,0 +1,49 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    margin-top: 95px; 
+    width: 250px; /* Width of the sidebar */
+    height: 100vh; /* Full height */
+    background-color: #403dea; /* Dark background */
+    color: #fff; /* White text color */
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0; /* Positioned on the left side */
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding: 20px; /* Padding inside the sidebar */
+  }
+  
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-item {
+    padding: 15px;
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text color */
+    font-size: 18px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .sidebar-item:hover {
+    background-color: #3229b0; /* Darker background on hover */
+  }
+  .Logout button {
+    background-color: #403dea;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 60px;
+    width: 210px;
+    text-align: left; /* Aligns the text to the left */
+    padding-left: 15px; /* Adds some padding to the left for spacing */
+    border-radius: 0;
+  }
+  .Logout button:hover {
+    background-color: #3229b0; /* Optional: Darken on hover */
+  }  
+  
